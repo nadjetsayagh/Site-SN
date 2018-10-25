@@ -1,0 +1,86 @@
+@import url(link href="https://fonts.googleapis.com/css?family=Cuprum|Dancing+Script|Krub|Open+Sans+Condensed:300|Permanent+Marker|Roboto+Slab" rel="stylesheet");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+ font-family: 'Quattrocento', serif;
+  font-size: 18px;
+  margin: 0px;
+  /*background: #FAF0E6;*/
+  text-align: justify;
+}
+h1, h2, h3{
+  font-family:'Quattrocento', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  margin-top:0;
+}
+
+/*LIEN*/
+a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+
+
+}
+a:hover {
+  color:silver;
+  }
+
+.lien{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+/*LISTE*/
+.list-without-bullet-point {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin:auto;
+}
+.list-without-bullet-point li {
+
+display: inline;
+margin: 20px;
+}
+
+.map {
+  text-align:center;
+}
+
+#map-image{
+  width: 300px;
+  margin: auto;
+}
+
+.wrapper{
+  background-image: url("https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e013f1cce7eed052a8352b4c940c165&auto=format&fit=crop&w=1033&q=80");
+  background-position:fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position : center;
+}
+
+.style{
+  background:transparent;
+  padding: 50px;
+  margin: 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
